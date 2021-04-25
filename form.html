@@ -1,0 +1,159 @@
+<html>
+<head>
+	<title>Register/Login</title>
+	<h1><center>REGISTER/LOGIN </center></h1>
+	<meta charset ="utf-8"/>
+</head>
+<body>
+<table align="Right">
+		<tr>	
+			<td >
+			<a href="Home.html">Home</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="About.html">About us</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="Contact.html">Contact</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="form.html">Register/Login</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="Careers.html">Careers</a>
+			</td>
+		</tr>
+</table>
+<br/>
+<br/>
+<form action ="">
+<table align="center" border="border" cellspacing="5" cellpadding="10" width="30%">
+<tr>
+	<td align="left"><label> First name </label></td>
+	<td><input  type="text" name="Name" /></td>
+</tr>
+<tr>
+	<td align="left"><label> Middle name </label></td>
+	<td><input  type="text" name="Name" /></td>
+</tr>
+<tr>
+	<td align="left"><label> Last name </label></td>
+	<td><input  type="text" name="Name" /></td>
+</tr>
+<tr>
+	<td align="left"><label>Email</label></td>
+	<td><input type="email"  name="Email"/></td>
+</tr>
+<tr>  
+	<td align="left"><label>Phone</label></td>
+	<td><input type="text" name="Phone" size="20" maxlength="12"/> </td>
+</tr>
+<tr>
+	<td align="left"><label>Password</label></td>
+	<td><input type="password" name="Password"></td>
+</tr>
+<tr>
+	<td align="left"><label>Date Of Birth</label></td>
+	<td><input type="date"/></td>
+</tr>
+<tr>
+	<td align="left"><label> Gender </label></td>
+	<td><input type="radio" name="gender" value="male"/> Male &nbsp;
+	<input type="radio" name="gender" value="female"/> Female &nbsp;
+	<input type="radio" name="gender" value="other"/> Other </td>  
+</tr>
+<tr>
+	<td align="left">Graduating Year</td>
+	<td><select name="Graduating Year">
+		<option>Select Year</option>
+		<option>2020/Before</option>
+		<option>2021</option>
+		<option>2022</option>
+		<option>2023</option>
+		<option>2024</option>
+	</select>
+	</td>
+</tr>
+<tr>
+	<td align="left"><label> College </label></td>
+	<td><input  type="text" name="College" /></td>
+</tr>
+<tr>
+	<td align="left"><label>History of Backpapers</label></td>
+	<td align="left"><label><input type = "checkbox"  name ="History of Backpapers"
+		value = "Yes" /> Yes
+	</label>
+	<label><input type = "checkbox"  name ="History of Backpapers"
+		value = "No" />No
+	</label></td>
+</tr>
+<tr>
+	<td align="left">Skills</td>
+	<td><select name="Skills">
+		<option>Select Skills</option>
+		<option>C</option>
+		<option>Python</option>
+		<option>C++</option>
+		<option>Ruby</option>
+		<option>Java</option>
+		<option>Html</option>
+		<option>CSS</option>
+		<option>Javascript</option>
+		<option>Database</option>
+	</select>
+	</td>
+</tr>
+<tr>
+	<td align="left">Courses</td>
+	<td><select name="Courses">
+		<option>Select Course</option>
+		<option>B.TECH</option>
+		<option>M.TECH</option>
+		<option>MCA</option>
+		<option>BCA</option>
+		<option>MBA</option>
+	</select>
+	</td>
+</tr>
+<tr>
+	<td align="left">Branch</td>
+	<td><select name="Branch">
+		<option>Select Branch</option>
+		<option>Computer Science & Engineering</option>
+		<option>Mechanical Engineering</option>
+		<option>Civil Engineering</option>
+		<option>Electonics and Communications Engineering</option>
+		<option>Electrical and Electronics Engineering</option>
+		<option>Applied and Instrumentation Engineering </option>
+	</select>
+	</td>
+</tr>
+<tr>
+	<td align="left">Photo</td>
+	<td> <input type="file"></td>
+</tr>
+<tr>
+	<td align="left">Resume</td>
+	<td> <input type="file"></td>
+</tr>
+<tr>
+	<td align="left">Linkedin Link</td><td>
+	<input type="url"></td>
+</tr>
+<tr>
+	<td align="left"><label>Hobbies</label></td>
+	<td><textarea cols="25" rows="5" value="address">
+	</textarea>
+	</td>
+</tr>
+<tr>
+	<td colspan="2">
+	<button onclick="myFunction()">Submit</button>
+	<script>
+	function myFunction(){
+	alert("Submitted Sucessfully");
+	}
+	</script> 
+	<input type="reset" value="Reset">
+	</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
